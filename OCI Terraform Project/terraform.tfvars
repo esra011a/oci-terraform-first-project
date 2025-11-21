@@ -1,0 +1,27 @@
+ tenancy_ocid        = "ocid1.tenancy.oc1..aaaaaaaaxxxxxxx" //write your tenancy ocid here
+  compt_Data_Ai_name = "DATA-AI-ESRAA"
+  compt_Data_Ai_description = "Data & Ai first compartment"
+   compt_DR_description = "first DR compartment"
+   compt_Web_description = "first Web compartemnt"
+   compt_Web_name = "WEB-ESRAA"
+ compt_DR_name = "DR-ESRAA"
+   size_in_gbs = 50
+subnet_count = 1
+volume_count = 1
+create_internet_gateway = true
+create_nat_gateway = true
+create_service_gateway = true
+ cidr_block = "10.0.0.0/16"
+ vcn_cidr = "10.0.0.0/16"
+ subnet_cidr_block = "10.0.30.0/24" 
+vcn_display_name = "vcn1"
+ label_prefix = "Esraa-"
+ internet_gateway_display_name= "internet1"
+ service_gateway_display_name = "service1"
+ nat_gateway_display_name = "nat1"
+ public_sn_cidr = "10.0.30.0/24"
+ public_sn_display_name="pubSN"
+ rt_name = "RouteTable"
+ volume_attachment_type = "iscsi"
+ volume_attachment_display_name = "first_volume_attachment"
+ 
